@@ -10,10 +10,10 @@ Algoritmo CompararLongitudPalabras
 	extra <- caracteresp1-caracteresp2
 	extra2 <- caracteresp2-caracteresp1
 	Si caracteresp1>caracteresp2 Entonces
-		Escribir 'La palabra ', palabra1, ' tiene ', extra, ' letras m·s que ', palabra2
+		Escribir 'La palabra ', palabra1, ' tiene ', extra, ' letras m√°s que ', palabra2
 	SiNo
 		Si caracteresp2>caracteresp1 Entonces
-			Escribir 'La palabra ', palabra2, ' tiene ', extra2, ' letras m·s que ', palabra1
+			Escribir 'La palabra ', palabra2, ' tiene ', extra2, ' letras m√°s que ', palabra1
 		SiNo
 			Escribir 'Las dos palabras tienen el mismo largo'
 		FinSi
